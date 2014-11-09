@@ -48,7 +48,7 @@ BestPostsController = PostsListController.extend({
 
 Router.route('/', {
   name: 'home',
-  controller: NewPostsController
+  controller: BestPostsController
 });
 
 Router.route('/new/:postsLimit?', {name: 'newPosts'});

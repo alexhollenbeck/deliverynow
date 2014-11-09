@@ -8,10 +8,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{pathFor 'bestPosts'}}">Delivery Now</a>
+        <a class="navbar-brand" href="{{pathFor 'home'}}">Delivery Now</a>
       </div>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
+        {{!--
++          <li class="{{activeRouteClass 'home' 'newPosts'}}">
++            <a href="{{pathFor 'newPosts'}}">List of restaurants</a>
++          </li>
++        --}}
           <li class="{{activeRouteClass 'home' 'bestPosts'}}">
             <a href="{{pathFor 'bestPosts'}}">Best restaurants</a>
           </li>
